@@ -1,0 +1,14 @@
+ 
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <node name="localhost" description="Servidor Nodo1" tags="centoslinuxTag" hostname="localhost" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-34-generic" username="rundeck" ssh-password-storage-path="keys/passLinux" />
+
+  <node name="asus" description="Servidor Nodo1" tags="centoslinuxTag" hostname="asus" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-34-generic" username="felipe" ssh-authentication="password" />
+
+  <node name="inspiron" description="Servidor inspiron" tags="GSS Prd Core" hostname="inspiron" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-34-generic" username="rundeck"/>
+
+<node name="windowsvb" description="Windows node" tags="" hostname="windowsvb:5985" osArch="amd64" osFamily="windows" osName="Windows" osVersion="2012r2" username="Administrator" winrm-connection-timeout="75" winrm-timeout="PT2M" winrm-password-option="sshPassword" />
+
+
+</project>
