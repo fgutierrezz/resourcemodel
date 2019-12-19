@@ -2,6 +2,5 @@
 
 <project>
   <node name="asus" description="Servidor Nodo1" tags="centoslinuxTag" hostname="localhost" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-34-generic" username="rundeck" ssh-password-storage-path="keys/passLinux" />
-  <node name="phil" description="Servidor Nodo1" tags="centoslinuxTag" hostname="phil" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-34-generic" username="rundeck" ssh-password-storage-path="keys/passLinux" />
-
+  <node name="phil" description="Servidor Nodo1" tags="phil" hostname="phil" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-34-generic" username="rundeck" ssh-password-storage-path="keys/passLinux" />
 </project>
