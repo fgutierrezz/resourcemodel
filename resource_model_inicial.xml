@@ -1,7 +1,5 @@
- 
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project>
-  <node name="asus" description="Servidor Nodo1" tags="centoslinuxTag" hostname="asus" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-34-generic" username="felipe" ssh-authentication="password" />
-
+  <node name="asus" description="Servidor Nodo1" tags="centoslinuxTag" asus="localhost" osArch="amd64" osFamily="unix" osName="Linux" osVersion="4.15.0-34-generic" username="rundeck" ssh-password-storage-path="keys/passLinux" />
 </project>
